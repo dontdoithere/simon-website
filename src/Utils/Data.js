@@ -40,3 +40,41 @@ export const SKILLS = [
         ],
     },
 ]
+
+export const EXPERIENCE =[
+    {
+        title: "Website Tester and Traffic Arbitrage",
+        date: "May 2020 - June 2020",
+        responsibilities: [
+            "Proficiency in gathering and analyzing large sets of data to inform decision-making and strategy development.",
+            "Conducted tests to compare the effectiveness of different web page versions.",
+            "Basic understanding of backend development, working with databases and servers.",
+            "Collaboration skills to work closely with developers for issue resolution.",
+            "Attention to detail in identifying and documenting software bugs and glitches.",
+        ],
+    },
+
+    {   
+        title: "TheDocky",
+        date: "September 2022 - May 2023",
+        responsibilities: [
+            "Proficiency in gathering and analyzing large sets of data to inform decision-making and strategy development.",
+            "Conducted tests to compare the effectiveness of different web page versions.",
+            "Basic understanding of backend development, working with databases and servers.",
+            "Collaboration skills to work closely with developers for issue resolution.",
+            "Attention to detail in identifying and documenting software bugs and glitches.",
+        ],
+    },
+
+    {   
+        title: "Website Tester and Traffic Arbitrage",
+        date: "May 2020 - June 2020",
+        responsibilities: [
+            "Proficiency in gathering and analyzing large sets of data to inform decision-making and strategy development.",
+            "Conducted tests to compare the effectiveness of different web page versions.",
+            "Basic understanding of backend development, working with databases and servers.",
+            "Collaboration skills to work closely with developers for issue resolution.",
+            "Attention to detail in identifying and documenting software bugs and glitches.",
+        ],
+    },
+]

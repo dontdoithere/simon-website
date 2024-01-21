@@ -1,0 +1,64 @@
+h1{
+    font-size: 50px;
+
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+
+.info-me{
+    font-size: 1.3rem;
+    padding: 1.3rem;
+    background: rgba(103,81,185,0.5);
+    border-radius: 20px;
+}
+
+
+.name-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 20px; 
+    align-self: flex-start; 
+  }
+
+
+.name-pic-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .name-intro {
+    flex: 1;
+    padding-right: 20px;
+    margin-top: 5rem;
+  }
+  
+  .my-pic {
+    flex: 1;
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  }
+
+  .quote-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  .quote-p{
+    font-size: 1.3rem;
+    padding: 1rem;
+    background: rgba(103,81,185,0.5);
+    border-radius: 10px;
+  }
