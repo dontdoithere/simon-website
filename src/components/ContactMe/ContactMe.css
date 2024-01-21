@@ -4,9 +4,10 @@
 }
 
 .contact-container h5{
-    font-size: 34px;
+    font-size: 38px;
     font-weight: 600;
     margin-bottom: 3rem;
+    font-family: 'Gruppo', sans-serif;
 }
 
 .contact-content{

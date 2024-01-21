@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import myPic from '../../assets/picMe.jpg';
 import './Home.css'
+import { QUOTES } from '../../Utils/Data'; 
+import Slider from 'react-slick';
+
 
 function Home() {
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 8000,
+    fade: true,
+  };
+
+  
   return (
     <section className="home-container">
         <div className="home-content">
@@ -27,8 +43,17 @@ function Home() {
           </div>
 
           <div className="quote-container">
-          <h3>Favourite quote:</h3>
-          <p className="quote-p">"The beauty of programming is not in the bits and bytes, but in the ability to translate innovative ideas into lines of code that empower and transform the digital world, shaping the future in ways we could only dream of."</p>
+             <h3>Favourite quotes</h3>
+              <div className="quote-p">
+                <Slider {...settings}>
+                  {QUOTES.map((quote, index) => (
+                    <div key={index} className="quote-slide">
+                      <p className="quote">{quote.text}</p>
+                      <p className="quote-author">{quote.author}</p>
+                    </div>
+                 ))}
+                </Slider>
+          </div>
           </div>
         </div>
     </section>

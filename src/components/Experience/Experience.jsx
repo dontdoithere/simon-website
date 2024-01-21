@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './Experience.css';
-import { EXPERIENCE, SKILLS } from '../../Utils/Data';
+import { EXPERIENCE, SKILLS, } from '../../Utils/Data';
 import ExperienceCard from './ExperienceCard/ExperienceCard';
 import Slider from 'react-slick';
 
