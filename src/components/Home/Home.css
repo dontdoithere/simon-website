@@ -99,9 +99,27 @@ h1::before{
 
 }
 
+@media (max-width: 600px) {
+
+  .info-me{
+    font-size: 1rem;
+  }
+  .name-pic-container{
+    display: flex;
+    flex-direction: column;
+  } 
+  .quote-container{
+    margin-right: 10px;
+  }
+
+  .quote-p{
+    width: 22rem;
+    font-size: 18px;
+  }
+}
 
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 768px) {
 
       .name-pic-container{
         display: flex;
@@ -129,24 +147,8 @@ h1::before{
         font-size: 30px;
 
       }
+      .quote-container{
+        margin-right: 15px;
+      }
 
-}
-
-@media (max-width: 375px) {
-
-  .quote-p {
-    width: 20rem; 
-    font-size: 1rem;
-    margin-right: 1rem;
-
-  }
-
-  .quote-author{
-    margin-top: 1rem;
-  }
-
-  .my-pic {
-    width: 100%; 
-    margin-top: 2rem; 
-  }
 }
