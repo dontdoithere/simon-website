@@ -64,6 +64,7 @@ h1::before{
 
   .quote-container{
     margin-top: 2rem;
+    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -136,6 +137,8 @@ h1::before{
   .quote-p {
     width: 20rem; 
     font-size: 1rem;
+    margin-right: 1rem;
+
   }
 
   .quote-author{
