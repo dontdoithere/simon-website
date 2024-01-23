@@ -100,7 +100,7 @@ h1::before{
 
 
 
-@media (max-width:768px){
+@media (min-width: 321px) and (max-width: 768px) {
 
       .name-pic-container{
         display: flex;
@@ -124,4 +124,26 @@ h1::before{
         width: 25rem;
       }
 
+      h3{
+        font-size: 30px;
+
+      }
+
+}
+
+@media (max-width: 375px) {
+
+  .quote-p {
+    width: 20rem; 
+    font-size: 1rem;
+  }
+
+  .quote-author{
+    margin-top: 1rem;
+  }
+
+  .my-pic {
+    width: 100%; 
+    margin-top: 2rem; 
+  }
 }

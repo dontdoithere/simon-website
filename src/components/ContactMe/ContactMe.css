@@ -24,4 +24,8 @@
     .info-container {
         flex: 1;
     }
+
+    .contact-container h5{
+        font-size: 30px;
+    }
   }

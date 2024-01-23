@@ -21,16 +21,16 @@ const Navbar = () => {
         <div className="nav-content">
             <ul>
                 <li>
-                    <a className="menu-item"> Home </a>
+                    <a className="menu-item" href="#home"> Home </a>
                 </li>
                 <li>
-                    <a className="menu-item"> Skill </a>
+                    <a className="menu-item" href="#skills"> Skill </a>
                 </li>
                 <li>
-                    <a className="menu-item"> Projects </a>
+                    <a className="menu-item" href="#experience"> Projects </a>
                 </li>
                 <li>
-                    <a className="menu-item"> ContactMe </a>
+                    <a className="menu-item" href="#contact"> ContactMe </a>
                 </li>
             </ul>
 

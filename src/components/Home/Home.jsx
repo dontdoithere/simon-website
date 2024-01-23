@@ -20,7 +20,7 @@ function Home() {
 
   
   return (
-    <section className="home-container">
+    <section id="home" className="home-container">
         <div className="home-content">
           <div className="name-pic-container">
            <div className="name-intro">
