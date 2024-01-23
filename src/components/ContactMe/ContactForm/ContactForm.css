@@ -73,11 +73,11 @@ form button:hover{
 @media (max-width:768px){
 
     .name-container input {
-        width: 25rem;
+        width: 20rem;
     }
 
     .mail-container input{
-        width: 20rem;
+        width: 17rem;
     }
 }
 
