@@ -73,7 +73,7 @@ form button:hover{
 @media (max-width:768px){
 
     .name-container input {
-        width: 20rem;
+        width: 25rem;
     }
 
     .mail-container input{
@@ -84,7 +84,7 @@ form button:hover{
 @media (min-width: 769px) and (max-width: 1024px) {
 
     .name-container input {
-        width: 20rem;
+        width: 27rem;
     }
 
     .mail-container input{

@@ -59,7 +59,7 @@ h1::before{
     width: 100%; 
     height: auto;
     border-radius: 8px; /* Optional: Add border radius for rounded corners */
-    margin-top: 5rem;
+    margin-top: 8rem;
   }
 
   .quote-container{
@@ -117,7 +117,12 @@ h1::before{
     font-size: 18px;
   }
   .my-pic{
+    margin-top: 5rem;
     width: 70%;
+  }
+
+  h1{
+    text-align: center;
   }
 }
 
@@ -142,6 +147,12 @@ h1::before{
         gap:8rem
       }
 
+      .my-pic{
+        width: 100%;
+        margin-top: 5rem;
+
+      }
+
       .quote-p{
         width: 25rem;
       }
@@ -153,6 +164,7 @@ h1::before{
       .quote-container{
         margin-right: 15px;
       }
+      
 
 }
 
@@ -164,10 +176,16 @@ h1::before{
   }
   
   .my-pic{
+    margin-top: 5rem; 
     width: 70%;
+  }
+
+  .info-me{
+    font-size: 1.2rem;
   }
 
   .quote-p{
     width: 40rem;
   }
+  
 }

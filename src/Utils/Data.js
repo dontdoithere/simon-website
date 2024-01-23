@@ -6,7 +6,7 @@ export const SKILLS = [
             {skill: "HTML5/CSS (Sass/SCSS)", percentage: "90%"},
             {skill: "JavaScript", percentage: "70%"},
             {skill: "React", percentage: "85%"},
-            {skill: "", percentage: "66%"},
+            {skill: "REST Api", percentage: "66%"},
         ],
     },
     {
@@ -58,11 +58,11 @@ export const EXPERIENCE =[
         title: "TheDocky",
         date: "September 2022 - May 2023",
         responsibilities: [
-            "Proficiency in gathering and analyzing large sets of data to inform decision-making and strategy development.",
-            "Conducted tests to compare the effectiveness of different web page versions.",
-            "Basic understanding of backend development, working with databases and servers.",
-            "Collaboration skills to work closely with developers for issue resolution.",
-            "Attention to detail in identifying and documenting software bugs and glitches.",
+            "Established real-time communication where the app sends requests for user verification, and signals are sent to the Raspberry PI for bike lock control.",
+            "Designed a flexible rate system based on bike lock duration, ensuring fair and accurate pricing for users.",
+            "Incorporated user authentication, secure payment processing, and data encryption for safeguarding user information",
+            "Docky app offers seamless features like login, signup, easy bike parking with GPS tracking, lock/unlock, real-time updates, and a payment system charging 1 cent per second.",
+            "Stored and retrieved user information and bike lock data in the Cloud Database, ensuring secure access and operation.",
         ],
     },
 

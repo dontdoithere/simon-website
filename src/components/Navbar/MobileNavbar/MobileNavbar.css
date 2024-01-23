@@ -39,5 +39,7 @@
 
     .mobile-menu{
         display: block;
+        height: 100%;
     }
+    
 }
