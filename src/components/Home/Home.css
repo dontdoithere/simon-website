@@ -116,6 +116,9 @@ h1::before{
     width: 22rem;
     font-size: 18px;
   }
+  .my-pic{
+    width: 70%;
+  }
 }
 
 
@@ -151,4 +154,20 @@ h1::before{
         margin-right: 15px;
       }
 
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .name-pic-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .my-pic{
+    width: 70%;
+  }
+
+  .quote-p{
+    width: 40rem;
+  }
 }

@@ -80,3 +80,15 @@ form button:hover{
         width: 20rem;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .name-container input {
+        width: 20rem;
+    }
+
+    .mail-container input{
+        width: 20rem;
+    }
+
+}
