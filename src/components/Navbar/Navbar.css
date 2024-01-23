@@ -84,7 +84,7 @@
 @media (max-width: 769px){
 
     .menu-btn{
-        justify-content: center;
+        align-items: center;
         display: block;
     }
 
