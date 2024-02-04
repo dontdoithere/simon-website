@@ -112,6 +112,10 @@ h1::before{
     margin-right: 10px;
   }
 
+  .name-intro{
+    gap:4rem;
+  }
+
   .quote-p{
     width: 22rem;
     font-size: 18px;
@@ -188,4 +192,17 @@ h1::before{
     width: 40rem;
   }
   
+}
+
+
+@media (min-width: 1025px) and (max-width: 1149px) {
+
+  h1{
+    text-align: center;
+  }
+
+  .my-pic{
+    margin-top: 15rem;
+    width: 70%;
+  }
 }

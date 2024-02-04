@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import myPic from '../../assets/picMe.jpg';
+import myPic from "../../assets/picMe.jpg"
 import './Home.css'
 import { QUOTES } from '../../Utils/Data'; 
 import Slider from 'react-slick';

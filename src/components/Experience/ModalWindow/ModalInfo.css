@@ -1,0 +1,125 @@
+/* ModalInfo.css */
+
+:root {
+    --primary-color: #6751b9;
+    --background-color: #130f2a;
+  }
+
+  h2{
+    font-family: 'Gruppo', sans-serif;
+    font-size: 3rem;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1000; /* Adjust the z-index to make sure it's on top */
+  }
+  
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1.5px solid var(--primary-color);
+    width: 1200px;
+    height: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .modal-content {
+    text-align: center;
+    color: #fff; /* Text color */
+  }
+
+  .modal-pic-info {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem; /* Adjust as needed */
+  }
+  
+  
+.modal-pic-info img {
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    width: 40%; /* Set width to 40% of the parent container */
+  }
+  
+  
+  
+.modal-info-wrap {
+    flex-grow: 1; /* Allow the text to take remaining width */
+    width: 60%; /* Set width to 60% of the parent container */
+    text-align: left; /* Align text to the left */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+ 
+
+  .info-mod{
+    margin-right: 1rem;
+    padding: 5px 8px;
+    background: rgba(103,81,185,0.5);
+    border-radius: 8px;
+    display: inline-block;
+  }
+
+  .skills-info{
+    display: inline-block;
+  }
+
+  .full-descr-content {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 1.2rem;
+  }
+
+  .close-btn-container{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 40px 40px 0 0;
+  }
+  
+  button:hover {
+    background-color: #4c3c8f; /* Darken the color on hover */
+  }
+  
+
+  @media (max-width: 768px) {
+    .modal {
+      width: 80%;
+      height: 80%;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    .full-descr-content{
+        font-size: 0.5rem;
+    }
+
+    .info-mod{
+        font-size: 10px;
+    }
+  } 

@@ -1,7 +1,7 @@
 export const SKILLS = [
     {
         title: "WebDev",
-        icon: "./assets/coding.png",
+        icon: require("../assets/Skills/coding.png").default,
         skills: [
             {skill: "HTML5/CSS (Sass/SCSS)", percentage: "90%"},
             {skill: "JavaScript", percentage: "70%"},
@@ -11,7 +11,7 @@ export const SKILLS = [
     },
     {
         title: "Embedded",
-        icon: "./assets/software-engineer.png",
+        icon: require("../assets/Skills/software-engineer.png").default,
         skills: [
             {skill: "IP/DHCP/TCP/UDP", percentage: "76%"},
             {skill: "C/C++", percentage: "92%"},
@@ -21,7 +21,7 @@ export const SKILLS = [
     },
     {
         title: "Tools",
-        icon: "./assets/settings.png",
+        icon: "../assets/Skills/settings.png",
         skills: [
             {skill: "Linux OS's", percentage: "90%"},
             {skill: "Cisco Networking", percentage: "75%"},
@@ -31,7 +31,7 @@ export const SKILLS = [
     },
     {
         title: "SoftSkills",
-        icon: "./assets/abilities.png",
+        icon: "../assets/Skills/abilities.png",
         skills: [
             {skill: "Problem-Solving", percentage: "78%"},
             {skill: "Creativity", percentage: "98%"},
@@ -45,6 +45,7 @@ export const EXPERIENCE =[
     {
         title: "Website Tester and Traffic Arbitrage",
         date: "May 2020 - June 2020",
+        pic: "",
         responsibilities: [
             "Proficiency in gathering and analyzing large sets of data to inform decision-making and strategy development.",
             "Conducted tests to compare the effectiveness of different web page versions.",
@@ -57,6 +58,8 @@ export const EXPERIENCE =[
     {   
         title: "TheDocky",
         date: "September 2022 - May 2023",
+        skills: "C Python IoT",
+        pic: "../assets/homeScreen.png",
         responsibilities: [
             "Established real-time communication where the app sends requests for user verification, and signals are sent to the Raspberry PI for bike lock control.",
             "Designed a flexible rate system based on bike lock duration, ensuring fair and accurate pricing for users.",
@@ -64,6 +67,7 @@ export const EXPERIENCE =[
             "Docky app offers seamless features like login, signup, easy bike parking with GPS tracking, lock/unlock, real-time updates, and a payment system charging 1 cent per second.",
             "Stored and retrieved user information and bike lock data in the Cloud Database, ensuring secure access and operation.",
         ],
+        full_descr: "The Docky system envisions a citywide network of bike docks, accessible to all through a user-friendly app featuring a simple lock/unlock feature. To achieve this, hardware components include a solenoid to secure bikes, a weight sensor for movement detection, LED lights indicating lock availability, and an LCD display showing parking duration and user details. The app encompasses login/signup screens, a timer with dock/undock options, a GPS location page displaying nearby docks, lock/unlock functionality, and a payment page charging 1 cent per second, offering a $100 wallet balance at signup. Individualized development involves fragment-based work, with one fragment per group member focusing on login, GPS, lock/unlock, and payment functionalities. Firebase integration ensures secure storage of user data, with real-time connectivity between the Android app and Raspberry PI. The database manages user IDs, passwords, lock times, and pricing based on usage duration.",
     },
 
     {   

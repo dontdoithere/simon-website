@@ -22,7 +22,7 @@ function Skills() {
             {SKILLS.map((item) => (
             <SkillCard
               key={item.title}
-              iconUrl={item.icon}
+              icon={item.icon}
               title={item.title}
               isActive={selectedSkill.title === item.title}
               onClick={() => {
