@@ -1,7 +1,17 @@
+import codingImage from "../assets/Skills/coding.png"
+import embedded from "../assets/Skills/system.png"
+import settings from "../assets/Skills/settings.png"
+import abilities from "../assets/Skills/abilities.png"
+import theDocky1 from "../assets/TheDocky/TheDocky_Login.png"
+import theDocky2 from "../assets/TheDocky/homeScreen.png"
+import theDocky3 from "../assets/TheDocky/TheDocky_Map.png"
+import theDocky4 from "../assets/TheDocky/TheDocky_Dock.png"
+import theDocky5 from "../assets/TheDocky/TheDocky_Settings.png"
+ 
 export const SKILLS = [
     {
         title: "WebDev",
-        icon: require("../assets/Skills/coding.png").default,
+        icon: codingImage,
         skills: [
             {skill: "HTML5/CSS (Sass/SCSS)", percentage: "90%"},
             {skill: "JavaScript", percentage: "70%"},
@@ -11,7 +21,7 @@ export const SKILLS = [
     },
     {
         title: "Embedded",
-        icon: require("../assets/Skills/software-engineer.png").default,
+        icon: embedded,
         skills: [
             {skill: "IP/DHCP/TCP/UDP", percentage: "76%"},
             {skill: "C/C++", percentage: "92%"},
@@ -21,7 +31,7 @@ export const SKILLS = [
     },
     {
         title: "Tools",
-        icon: "../assets/Skills/settings.png",
+        icon: settings,
         skills: [
             {skill: "Linux OS's", percentage: "90%"},
             {skill: "Cisco Networking", percentage: "75%"},
@@ -31,7 +41,7 @@ export const SKILLS = [
     },
     {
         title: "SoftSkills",
-        icon: "../assets/Skills/abilities.png",
+        icon: abilities,
         skills: [
             {skill: "Problem-Solving", percentage: "78%"},
             {skill: "Creativity", percentage: "98%"},
@@ -45,7 +55,7 @@ export const EXPERIENCE =[
     {
         title: "Website Tester and Traffic Arbitrage",
         date: "May 2020 - June 2020",
-        pic: "",
+        pics: "",
         responsibilities: [
             "Proficiency in gathering and analyzing large sets of data to inform decision-making and strategy development.",
             "Conducted tests to compare the effectiveness of different web page versions.",
@@ -59,7 +69,7 @@ export const EXPERIENCE =[
         title: "TheDocky",
         date: "September 2022 - May 2023",
         skills: "C Python IoT",
-        pic: "../assets/homeScreen.png",
+        pic: theDocky2,
         responsibilities: [
             "Established real-time communication where the app sends requests for user verification, and signals are sent to the Raspberry PI for bike lock control.",
             "Designed a flexible rate system based on bike lock duration, ensuring fair and accurate pricing for users.",

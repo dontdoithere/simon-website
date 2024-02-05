@@ -12,7 +12,7 @@
     background: #7c66e3;
     position:absolute;
     z-index: -1;
-    filter:blur(1500px);
+    filter: blur(119px)
 }
 
 .skills-container::after{
