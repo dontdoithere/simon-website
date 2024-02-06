@@ -15,9 +15,13 @@ const ModalInfo = ({ details, closeModal }) => {
       <div className="modal-content">
         <h2>{details.title}</h2>
         <div className="modal-pic-info">
-            <img src={details.pic} alt="Project Image" />
+            <img src={details.pic}   alt="Project Image" />
+          
             <div className="modal-info-wrap">
-                <h5><span className="info-mod">Date:</span>{details.date}</h5>
+                <h5>
+                    <span className="info-mod">Date:</span>
+                    <span className="date-info">{details.date}</span>
+                </h5>
                 <p className="p-skills">
                     <span className="info-mod">Skills:</span>
                     <span className="skills-info">{details.skills}</span>

@@ -55,6 +55,7 @@ export const EXPERIENCE =[
     {
         title: "Website Tester and Traffic Arbitrage",
         date: "May 2020 - June 2020",
+        skills: "HTML/SCSS/JS + Node.js",
         pics: "",
         responsibilities: [
             "Proficiency in gathering and analyzing large sets of data to inform decision-making and strategy development.",
@@ -63,13 +64,15 @@ export const EXPERIENCE =[
             "Collaboration skills to work closely with developers for issue resolution.",
             "Attention to detail in identifying and documenting software bugs and glitches.",
         ],
+        full_descr: "Demonstrating a high level of proficiency in data gathering and analysis, I inform strategic decision-making and contribute substantively to business strategy formulation. My comprehensive testing protocols for web page optimization and collaboration with developers underscore a commitment to seamless digital functionality. With a meticulous approach, I navigate complex datasets to extract meaningful insights, driving informed decision-making and strategic planning. My foundational knowledge in backend development ensures a comprehensive understanding of digital infrastructures, allowing for effective collaboration and issue resolution."
+
     },
 
     {   
         title: "TheDocky",
         date: "September 2022 - May 2023",
-        skills: "C Python IoT",
-        pic: theDocky2,
+        skills: "C, Python, IoT",
+        pics: "",
         responsibilities: [
             "Established real-time communication where the app sends requests for user verification, and signals are sent to the Raspberry PI for bike lock control.",
             "Designed a flexible rate system based on bike lock duration, ensuring fair and accurate pricing for users.",

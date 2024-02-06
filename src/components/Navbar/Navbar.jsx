@@ -17,8 +17,8 @@ const Navbar = () => {
     <>
     <MobileNavbar isOpen={openMenu} toggleMenu={toggleMenu} />
 
-    <nav className="nav-wrapper">
-        <div className="nav-content">
+    <div className="nav-wrapper">
+        <nav className="nav-content">
             <ul>
                 <li>
                     <a className="menu-item" href="#home"> Home </a>
@@ -39,8 +39,8 @@ const Navbar = () => {
             <List size={32} color="black" />
             {openMenu ? "" : ""}
             </button>
-        </div>
-    </nav>
+        </nav>
+    </div>
   </>
   );
 };
