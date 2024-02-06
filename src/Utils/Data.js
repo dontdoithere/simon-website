@@ -7,7 +7,13 @@ import theDocky2 from "../assets/TheDocky/homeScreen.png"
 import theDocky3 from "../assets/TheDocky/TheDocky_Map.png"
 import theDocky4 from "../assets/TheDocky/TheDocky_Dock.png"
 import theDocky5 from "../assets/TheDocky/TheDocky_Settings.png"
- 
+import hardware1 from "../assets/dockyHardware/dockyHardware1.jpg"
+import hardware2 from "../assets/dockyHardware/dockyHardware2.jpg"
+import pcb from "../assets/dockyHardware/pcbDesign.png"
+import chain from "../assets/dockyHardware/dockyChain.jpg"
+
+
+
 export const SKILLS = [
     {
         title: "WebDev",
@@ -72,7 +78,7 @@ export const EXPERIENCE =[
         title: "TheDocky - Android App",
         date: "September 2022 - May 2023",
         skills: "Java, Real-Time DB, API's",
-        pics: theDocky2,
+        pics: [theDocky2, theDocky1, theDocky3, theDocky4, theDocky5],
         responsibilities: [
             "Established real-time communication where the app sends requests for user verification, and signals are sent to the Raspberry PI for bike lock control.",
             "Designed a flexible rate system based on bike lock duration, ensuring fair and accurate pricing for users.",
@@ -87,6 +93,7 @@ export const EXPERIENCE =[
         title: "Smart Bike Locker - Hardware",
         date: "January 2023 - May 2023",
         skills: "PCB Design, Python/C, I2C",
+        pics: [hardware1, hardware2, pcb, chain],
         responsibilities: [
             "The hardware boasts a compact build, integrating Raspberry Pi, sensors, and PCB into a space-efficient unit.",
             "Utilizes solenoid actuation controlled by Raspberry Pi to ensure secure locking mechanisms for bikes.",

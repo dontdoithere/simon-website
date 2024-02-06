@@ -10,6 +10,23 @@
     margin-bottom: 2rem;
 }
 
+.contact-details-card .icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: #3d3072;
+    margin-bottom: 0.8rem;
+}
+
+.icon img{
+    width: 2.8rem;
+    height: auto;
+    object-fit: contain;
+}
+
 .contact-details-card p{
     font-size: 0.9rem;
     font-weight: 400;

@@ -7,10 +7,12 @@ const ExperienceCard = ({ details }) => {
 
   const openModal = () => {
     setModalOpen(true);
+    document.body.classList.add("modal-open"); // Add class to body
   };
 
   const closeModal = () => {
     setModalOpen(false);
+    document.body.classList.remove("modal-open"); // Remove class from body
   };
 
 

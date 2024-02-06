@@ -24,7 +24,7 @@
     background: #130f2a;
     position: absolute;
     top: 55%;
-    z-index: 2;
+    z-index: 1;
     cursor: pointer;
 }
 
@@ -41,6 +41,11 @@
 
 .arrow-right{
     right: -2rem;
+}
+
+.experience-container.modal-open .arrow-left,
+.experience-container.modal-open .arrow-right {
+  display: none; /* Hide the arrows when modal is open */
 }
 
 

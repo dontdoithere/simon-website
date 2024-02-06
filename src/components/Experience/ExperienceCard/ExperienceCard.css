@@ -43,6 +43,17 @@
     top: 2px;
 }
 
+.modal-open {
+    overflow: hidden; /* Prevent scrolling */
+ }
+  
+
+  
+.modal-open .arrow-left,
+.modal-open .arrow-right {
+    display: none; /* Hide the arrows */
+}
+
 .button-container {
     display: flex;
     justify-content: center;

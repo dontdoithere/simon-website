@@ -17,6 +17,10 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 9999;
   }
   
   
@@ -30,8 +34,9 @@
     border-radius: 10px;
     border: 1.5px solid var(--primary-color);
     width: 1200px;
-    height: 800px;
+    height: 950px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
   }
   
   
@@ -40,12 +45,6 @@
     color: #fff; /* Text color */
   }
 
-  .modal-pic-info {
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem; /* Adjust as needed */
-  }
-  
   
   .modal-pic-info img {
     max-width: 100%;
@@ -58,7 +57,7 @@
   
 .modal-info-wrap {
     flex-grow: 1; /* Allow the text to take remaining width */
-    width: 60%; /* Set width to 60% of the parent container */
+    width: 100%; /* Set width to 60% of the parent container */
     text-align: left; /* Align text to the left */
     display: flex;
     flex-direction: column;
@@ -78,10 +77,12 @@
   
   .date-info{
     display: inline-block; 
+    font-size: 1.2rem;
   }
 
   .skills-info{
     display: inline-block;
+    font-size: 1.2rem;
   }
 
   .full-descr-content {
@@ -96,6 +97,29 @@
     
   }
   
+  .pic-modal-div {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center the thumbnails horizontally */
+    gap: 10px; 
+    flex-wrap: nowrap; /* Prevent wrapping of items */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    width: 100%; /* Ensure the container spans the full width */
+    height: auto; /* Allow the height to adjust based on content */
+    margin-top: 30px;
+  }
+  
+  .thumbnail-container {
+    flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
+    margin-right: 10px; /* Add spacing between thumbnail images */
+  }
+  
+  
+
+  .thumbnail {
+    width: 150px;
+    /* Add any other styles you need for the thumbnails */
+  }
+
   button {
     background-color: var(--primary-color);
     color: #fff;
@@ -105,6 +129,7 @@
     border-radius: 5px;
     font-size: 16px;
     margin-right: 50px;
+    margin-top: 30px;
   }
   
   button:hover {
