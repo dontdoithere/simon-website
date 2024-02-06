@@ -54,11 +54,11 @@
     }
 
     .arrow-left{
-        left: 0rem;
+        left: -0.8rem;
     }
 
     .arrow-right{
-        right: 0rem;
+        right: -0.8rem;
     }
 }
 

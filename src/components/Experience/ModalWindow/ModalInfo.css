@@ -49,7 +49,9 @@
   
   .modal-pic-info img {
     max-width: 100%;
-  
+    width: 300px;
+    border-radius: 15px;
+    margin: 0 10px;
 }
 
   
@@ -61,6 +63,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 2rem;
   }
 
  
@@ -71,6 +74,10 @@
     background: rgba(103,81,185,0.5);
     border-radius: 8px;
     display: inline-block;
+  }
+  
+  .date-info{
+    display: inline-block; 
   }
 
   .skills-info{
@@ -86,6 +93,7 @@
   .close-btn-container{
     display: flex;
     justify-content: flex-end;
+    
   }
   
   button {
@@ -96,7 +104,7 @@
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
-    margin: 40px 40px 0 0;
+    margin-right: 50px;
   }
   
   button:hover {
@@ -110,19 +118,34 @@
       height: 80%;
     }
 
+    .modal-pic-info{
+      margin-top: 1rem;
+    }
+
     h2{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .full-descr-content{
-        font-size: 0.5rem;
+        font-size: 8px;
     }
 
     .info-mod{
+        margin-bottom: 3px;
         font-size: 11px;
+    }
+
+    .date-info, .skills-info, .full-descr-content{
+      margin-top: 8px;
     }
     .modal-info-wrap{
       gap:0.3rem
+    }
+
+    .modal-pic-info img {
+      margin-top: 2rem;
+      width: 210px;
+      height: 500px;
     }
 
     .skills-info{
@@ -131,5 +154,10 @@
     
     h5{
       font-size: 13px;
+    }
+
+    button{
+      margin-top: 1rem;
+      padding: 8px 15px;
     }
   } 

@@ -72,7 +72,7 @@ export const EXPERIENCE =[
         title: "TheDocky",
         date: "September 2022 - May 2023",
         skills: "C, Python, IoT",
-        pics: "",
+        pics: theDocky2,
         responsibilities: [
             "Established real-time communication where the app sends requests for user verification, and signals are sent to the Raspberry PI for bike lock control.",
             "Designed a flexible rate system based on bike lock duration, ensuring fair and accurate pricing for users.",
