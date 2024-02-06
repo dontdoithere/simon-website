@@ -2,6 +2,12 @@ import React from 'react'
 import './MobileNavbar.css'
 
 const  MobileNavbar = ({isOpen, toggleMenu }) => {
+    const handleItemClick = () => {
+        // Close the menu when a menu item is clicked
+        toggleMenu();
+    };
+
+    
   return (
     <>
     <div className={`mobile-menu ${isOpen ? "active" : ""}`} 
@@ -11,16 +17,16 @@ const  MobileNavbar = ({isOpen, toggleMenu }) => {
      <div className="mobile-menu-container">    
         <ul>
             <li>
-                <a className="menu-item">Home</a>
+                <a className="menu-item" href="#home">Home</a>
             </li>
             <li>
-                <a className="menu-item">Skills</a>
+                <a className="menu-item" href="#skills">Skills</a>
             </li>
             <li>
-                <a className="menu-item">Projetcs</a>
+                <a className="menu-item" href="#experience">Projetcs</a>
             </li>
             <li>    
-                <a className="menu-item">Contact Me</a> 
+                <a className="menu-item" href="#contact">Contact Me</a> 
             </li>
         </ul>
      </div>

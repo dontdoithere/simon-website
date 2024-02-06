@@ -69,9 +69,9 @@ export const EXPERIENCE =[
     },
 
     {   
-        title: "TheDocky",
+        title: "TheDocky - Android App",
         date: "September 2022 - May 2023",
-        skills: "C, Python, IoT",
+        skills: "Java, Real-Time DB, API's",
         pics: theDocky2,
         responsibilities: [
             "Established real-time communication where the app sends requests for user verification, and signals are sent to the Raspberry PI for bike lock control.",
@@ -84,15 +84,17 @@ export const EXPERIENCE =[
     },
 
     {   
-        title: "Website Tester and Traffic Arbitrage",
-        date: "May 2020 - June 2020",
+        title: "Smart Bike Locker - Hardware",
+        date: "January 2023 - May 2023",
+        skills: "PCB Design, Python/C, I2C",
         responsibilities: [
-            "Proficiency in gathering and analyzing large sets of data to inform decision-making and strategy development.",
-            "Conducted tests to compare the effectiveness of different web page versions.",
-            "Basic understanding of backend development, working with databases and servers.",
-            "Collaboration skills to work closely with developers for issue resolution.",
-            "Attention to detail in identifying and documenting software bugs and glitches.",
+            "The hardware boasts a compact build, integrating Raspberry Pi, sensors, and PCB into a space-efficient unit.",
+            "Utilizes solenoid actuation controlled by Raspberry Pi to ensure secure locking mechanisms for bikes.",
+            "Sensors provide real-time data on weight and lock status, accessible through the Android app interface.",
+            "LCD display and LED indicators offer intuitive feedback, enhancing user interaction and system understanding.",
+            "Suitable for various environments including educational institutes, offices, and homes, catering to diverse user needs.",
         ],
+        full_descr: "The hardware system, centered around a Raspberry Pi, is both sophisticated and compact, making it a powerhouse of functionality in a small package. It boasts sensors for weight detection and a locking mechanism controlled by a solenoid, ensuring robust security measures for bikes. Enhanced user engagement is achieved through the inclusion of an LCD display and LED indicators, providing clear feedback and system status updates. This amalgamation of hardware components guarantees not only real-time bike monitoring but also seamless integration with the Android app. Its versatility allows for easy adaptation to various settings, from educational institutions to office premises and residential areas. With its user-friendly interface and comprehensive security features, it offers tailored solutions for diverse user needs."
     },
 ]
 
