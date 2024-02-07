@@ -149,12 +149,19 @@
       gap: 1rem;
     }
 
+    .info-mod{
+      font-size: 0.7rem;
+    }
+
     .thumbnail {
       width: 45px; /* Set the width to 50% for smaller screens */
     }
 
-    .skills-info, .date-info,
+    .skills-info, .date-info{
+      font-size: 0.5rem;
+    }
+
     .full-descr-content{
-      font-size: 0.7rem;
+      font-size: 0.3rem;
     }
   }
