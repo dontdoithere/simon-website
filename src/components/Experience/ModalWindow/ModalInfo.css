@@ -176,7 +176,7 @@
 
     .single-img{
       width: 350px;
-      height: 200px;
+      height: 150px;
     }
 
     .skills-info, .date-info{
@@ -265,7 +265,7 @@
       width: 400px;
       height: 300px;
       margin-left: auto; /* Center the image horizontally */
-      margin-right: auto; /* Center the image horizontally */
+      margin-right: auto; /* Center the image horizontally */ 
     } 
 
     .thumbnail-container{
