@@ -45,8 +45,7 @@ const ModalInfo = ({ details, closeModal }) => {
             <img
               src={pic}
               alt={`Full Size ${index}`}
-              className="fullsize single-img"
-              style={{ width: '800px', height: '300px' }} 
+              className="single-img" 
               onClick={() => handleImageClick(pic)}
             />
           ) : (

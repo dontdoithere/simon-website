@@ -122,9 +122,9 @@
     /* Add any other styles you need for the thumbnails */
   }
 
-  .fullsize .single-img{
-    width: 800px;
-    height: 300px;   
+  .single-img{
+    width: 700px;
+    height: 380px;   
   }
 
   .fullsize {
@@ -174,6 +174,11 @@
       width: 65px; /* Set the width to 50% for smaller screens */
     }
 
+    .single-img{
+      width: 350px;
+      height: 200px;
+    }
+
     .skills-info, .date-info{
       font-size: 0.7rem;
     }
@@ -214,6 +219,15 @@
       margin-bottom: 20px;
     }
 
+    .single-img{
+      width: 350px;
+      height: 200px;
+    }
+
+    button{
+      padding: 8px 15px;
+    }
+
     .info-mod{
       font-size: 0.7rem;
     }
@@ -231,6 +245,9 @@
 
   @media (min-width: 1025px) and (max-width: 1250px) {
 
+    h2{
+      font-size: 1.8rem;
+    }
     .modal{
       width: 80%;
       height: 80%
@@ -241,6 +258,21 @@
     }
 
     .thumbnail{
-      width: 120px;
+      width: 60px;
+    }
+
+    .single-img{
+      width: 400px;
+      height: 300px;
+      margin-left: auto; /* Center the image horizontally */
+      margin-right: auto; /* Center the image horizontally */
+    } 
+
+    .thumbnail-container{
+      margin-bottom: 10px;
+    }
+    .modal-info-wrap{
+      gap: 0.5rem;
+      margin-bottom: 20px;
     }
   }
