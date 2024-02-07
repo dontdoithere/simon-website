@@ -12,6 +12,7 @@ import hardware2 from "../assets/dockyHardware/dockyHardware2.jpg"
 import pcb from "../assets/dockyHardware/pcbDesign.png"
 import chain from "../assets/dockyHardware/dockyChain.jpg"
 import fullDesign from "../assets/dockyHardware/allDesign.png"
+import prog from "../assets/picProg.jpg"
 
 
 
@@ -60,10 +61,11 @@ export const SKILLS = [
 
 export const EXPERIENCE =[
     {
+        id: 1,
         title: "Website Tester and Traffic Arbitrage",
         date: "May 2020 - June 2020",
         skills: "HTML/SCSS/JS + Node.js",
-        pics: "",
+        pics: [prog],
         responsibilities: [
             "Proficiency in gathering and analyzing large sets of data to inform decision-making and strategy development.",
             "Conducted tests to compare the effectiveness of different web page versions.",
@@ -76,6 +78,7 @@ export const EXPERIENCE =[
     },
 
     {   
+        id: 2,
         title: "TheDocky - Android App",
         date: "September 2022 - May 2023",
         skills: "Java, Real-Time DB, API's",
@@ -91,6 +94,7 @@ export const EXPERIENCE =[
     },
 
     {   
+        id: 3,
         title: "Smart Bike Locker - Hardware",
         date: "January 2023 - May 2023",
         skills: "PCB Design, Python/C, I2C",

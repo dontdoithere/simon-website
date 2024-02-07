@@ -25,19 +25,10 @@ function Home() {
           <div className="name-pic-container">
            <div className="name-intro">
               <h1>Simon Diakonov</h1>
-              <p className="info-me">Experienced software engineer with a
-                                    year Website Tester background and
-                                    Humber College's Computer Engineering
-                                    Technology education. Proficient in C,
-                                    Java, Linux OS, and diverse projects
-                                    including Arduino and Android
-                                    applications. Seeking a dynamic tech role
-                                    to contribute innovation, problem-solving,
-                                    and a strong foundation in software
-                                    engineering to your team. With a proven
-                                    ability to adapt and a passion for
-                                    continuous growth, I am poised to drive
-                                    impactful solutions.</p>
+              <p className="info-me">As an experienced software engineer, I've spent a solid year refining my skills as a Website Tester. My education in Computer Engineering Technology from Humber College has equipped me with a strong foundation. I'm proficient in C, Java, and navigating Linux OS, and I've worked on interesting projects such as Arduino tinkering and crafting Android applications.<br/><br/>
+
+              I'm currently seeking a new opportunity in the tech field where I can leverage my innovative mindset, problem-solving abilities, and solid software engineering background. I thrive on adapting to new challenges and am constantly seeking opportunities for personal and professional growth. If you're looking for someone to bring impactful solutions and a touch of tech wizardry to your team, I'm ready to jump in and make a difference.
+              </p>
            </div>
            <img src={myPic} className="my-pic" alt="myPic" />
           </div>

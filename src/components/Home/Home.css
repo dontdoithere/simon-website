@@ -26,7 +26,7 @@ h1::before{
 
 
 .info-me{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     padding: 1.3rem;
     background: rgba(148, 129, 216, 0.2);
     border-radius: 20px;
@@ -36,7 +36,7 @@ h1::before{
 .name-intro {
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 7rem;
     padding-right: 20px; 
     align-self: flex-start; 
   }
