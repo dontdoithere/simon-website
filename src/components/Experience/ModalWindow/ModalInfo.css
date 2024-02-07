@@ -122,10 +122,19 @@
     /* Add any other styles you need for the thumbnails */
   }
 
+  .thumbnail:hover {
+    box-shadow: 0 8px 16px rgba(255, 182, 193, 0.8); 
+}
+
   .single-img{
+    border-radius: 15px;
     width: 700px;
     height: 380px;   
   }
+  
+  .single-img:hover {
+    box-shadow: 0 8px 16px rgba(255, 182, 193, 0.8); /* Highlight the shadow on hover */
+} 
 
   .fullsize {
     max-width: 80%; /* Set max-width to 80% */
