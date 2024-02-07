@@ -69,3 +69,9 @@
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 600px){
+    .skill-card{
+        padding: 1.5rem;
+    }
+}
