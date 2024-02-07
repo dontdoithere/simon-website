@@ -81,7 +81,6 @@
   }
 
   .skills-info{
-    display: inline-block;
     font-size: 1.2rem;
   }
 
@@ -91,10 +90,10 @@
     font-size: 1.2rem;
   }
 
-  .close-btn-container{
-    display: flex;
-    justify-content: flex-end;
-    
+  .close-btn-container {
+    position: absolute; /* Position relative to the modal */
+    bottom: 20px; /* 10px from the bottom */
+    right: 20px; /* 20px from the right */
   }
   
   .pic-modal-div {
@@ -103,8 +102,8 @@
     gap: 10px; 
     flex-wrap: nowrap; /* Prevent wrapping of items */
     overflow-x: auto; /* Allow horizontal scrolling if needed */
-    width: 100%; /* Ensure the container spans the full width */
-    height: auto; /* Allow the height to adjust based on content */
+    width: 100%; 
+    height: 320px; /* Allow the height to adjust based on content */
     margin-top: 30px;
   }
   
@@ -119,7 +118,7 @@
     width: 150px;
     /* Add any other styles you need for the thumbnails */
   }
-
+  
   button {
     background-color: var(--primary-color);
     color: #fff;
@@ -129,87 +128,33 @@
     border-radius: 5px;
     font-size: 16px;
     margin-right: 50px;
-    margin-top: 30px;
   }
   
   button:hover {
     background-color: #4c3c8f; /* Darken the color on hover */
   }
   
-  @media (max-width: 600px){
+  @media (max-width: 768px) {
+
     .modal{
-      height: 80%;
       width: 80%;
-    }
-
-    .modal-pic-info img {
-      margin-top: 2rem;
-      width: 110px;
-      height: 300px;
-    }
-
-
-    h2{
-      font-size: 2rem;
-    }
-
-    .full-descr-content{
-      font-size: 10px;
-    }
-    
-    .info-mod{
-      margin-bottom: 3px;
-      font-size: 11px;
-    }
-  
-}
-
-  @media (min-width: 601px) and (max-width: 768px) {
-    .modal {
-      width: 90%;
       height: 80%;
     }
 
-    .modal-pic-info{
-      margin-top: 1rem;
-    }
-
     h2{
-        font-size: 2rem;
+      font-size: 1.8rem;
     }
 
-    .full-descr-content{
-        font-size: 8px;
-    }
-
-    .info-mod{
-        margin-bottom: 3px;
-        font-size: 11px;
-    }
-
-    .date-info, .skills-info, .full-descr-content{
-      margin-top: 8px;
-    }
     .modal-info-wrap{
-      gap:0.3rem
+      gap: 1rem;
     }
 
-    .modal-pic-info img {
-      margin-top: 2rem;
-      width: 210px;
-      height: 500px;
+    .thumbnail {
+      width: 45px; /* Set the width to 50% for smaller screens */
     }
 
-    .skills-info{
-      font-size: 13px;
+    .skills-info, .date-info,
+    .full-descr-content{
+      font-size: 0.7rem;
     }
-    
-    h5{
-      font-size: 13px;
-    }
-
-    button{
-      margin-top: 1rem;
-      padding: 8px 15px;
-    }
-  } 
+  }

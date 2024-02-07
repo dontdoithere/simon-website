@@ -11,6 +11,7 @@ import hardware1 from "../assets/dockyHardware/dockyHardware1.jpg"
 import hardware2 from "../assets/dockyHardware/dockyHardware2.jpg"
 import pcb from "../assets/dockyHardware/pcbDesign.png"
 import chain from "../assets/dockyHardware/dockyChain.jpg"
+import fullDesign from "../assets/dockyHardware/allDesign.png"
 
 
 
@@ -93,7 +94,7 @@ export const EXPERIENCE =[
         title: "Smart Bike Locker - Hardware",
         date: "January 2023 - May 2023",
         skills: "PCB Design, Python/C, I2C",
-        pics: [hardware1, hardware2, pcb, chain],
+        pics: [hardware1, hardware2, pcb, chain, fullDesign],
         responsibilities: [
             "The hardware boasts a compact build, integrating Raspberry Pi, sensors, and PCB into a space-efficient unit.",
             "Utilizes solenoid actuation controlled by Raspberry Pi to ensure secure locking mechanisms for bikes.",
@@ -101,7 +102,7 @@ export const EXPERIENCE =[
             "LCD display and LED indicators offer intuitive feedback, enhancing user interaction and system understanding.",
             "Suitable for various environments including educational institutes, offices, and homes, catering to diverse user needs.",
         ],
-        full_descr: "The hardware system, centered around a Raspberry Pi, is both sophisticated and compact, making it a powerhouse of functionality in a small package. It boasts sensors for weight detection and a locking mechanism controlled by a solenoid, ensuring robust security measures for bikes. Enhanced user engagement is achieved through the inclusion of an LCD display and LED indicators, providing clear feedback and system status updates. This amalgamation of hardware components guarantees not only real-time bike monitoring but also seamless integration with the Android app. Its versatility allows for easy adaptation to various settings, from educational institutions to office premises and residential areas. With its user-friendly interface and comprehensive security features, it offers tailored solutions for diverse user needs."
+        full_descr: "The hardware system, with its central Raspberry Pi unit, stands as a beacon of sophistication within a remarkably compact form factor. Boasting an array of cutting-edge components, including precision weight sensors and a meticulously engineered solenoid-driven locking mechanism, it establishes an impregnable fortress of security around bicycles. Moreover, the integration of an expansive LCD display and a network of vibrant LED indicators enhances user engagement to unprecedented levels, offering crystal-clear, real-time feedback and meticulously detailed system status updates. This harmonious convergence of hardware components not only ensures seamless bike monitoring but also facilitates flawless integration with the Android application. Its unparalleled versatility transcends boundaries, effortlessly adapting to a diverse array of environments ranging from bustling educational institutions to corporate complexes and serene residential neighborhoods. With its intuitive interface and a comprehensive suite of security features, it stands ready to cater to an extensive spectrum of user needs with unparalleled finesse and precision."
     },
 ]
 
