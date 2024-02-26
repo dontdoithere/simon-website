@@ -285,3 +285,26 @@
       margin-bottom: 20px;
     }
   }
+
+  @media (min-width: 1251px){
+    .modal{
+      height: 80%;
+      width: 80%;
+    }
+
+    .thumbnail{
+      width: 60px;
+    }
+    .single-img{
+      width: 400px;
+      height: 250px;
+      margin-left: auto; /* Center the image horizontally */
+      margin-right: auto; /* Center the image horizontally */ 
+    }
+
+    .full-descr-content{
+      font-size: 1.1rem;
+    }
+
+       
+  }
